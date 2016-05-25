@@ -29,5 +29,15 @@ module load gcc/4.9.1
 # --- Settings for R -----
 alias R='R --no-save'  # (don't save the workspace at end of session)
 
+# if you simply want to use some common packages, uncomment the following line
+# export R_LIBS=/vega/stats/users/wz2335/r-library/3.2
+
 # if you want to install your own R library, uncomment the following line
 # export R_LIBS_USER=/vega/stats/users/$USER/r-library/3.2
+
+# --- Settings for Java ---
+
+# if you need access to a version of Java 8, you can uncomment the next two lines
+
+# export JAVA_HOME=/vega/stats/users/wz2335/jdk1.8.0_92
+# PATH=$JAVA_HOME/bin:$PATH
